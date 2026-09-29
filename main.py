@@ -162,7 +162,7 @@ class SkinScraperApp:
                 self.lbl_status.config(text="Erro ao carregar a imagem.", fg="red")
 
         # Formata e Atualiza os Preços
-        texto_precos = "💰 PREÇOS POR DESGASTE:\n" + "-" * 40 + "\n"
+        texto_precos = "PREÇOS POR DESGASTE:\n" + "-" * 40 + "\n"
         lista_desgastes = ["Factory New", "Minimal Wear", "Field-Tested", "Well-Worn", "Battle-Scarred"]
 
         for desgaste in lista_desgastes:
